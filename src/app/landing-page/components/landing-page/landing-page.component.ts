@@ -12,7 +12,7 @@ export class LandingPageComponent {
 
   constructor(private router : Router) {
   }
-  onRetourn() {
+  onContinuer() {
     this.router.navigateByUrl("facesnaps")
   }
   onSubmitForm(form :NgForm) {
